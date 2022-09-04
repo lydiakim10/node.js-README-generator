@@ -36,8 +36,8 @@ function renderLicenseSection(license) {
   if (!license) {
     return "";
   } else {
-    return `##Licenses
-    The license that is used for this project is: ${license}.`
+    return 
+    `The license that is used for this project is: ${license}.`
   }
 };
 
@@ -75,8 +75,8 @@ function generateMarkdown(data) {
 
   ## Questions
   If you have any questions, please feel free to reach out to me at:
-  Github: [${data.github}(https://github.com/${data.github})]
-  Email: ${data.email}
+  * Github: [${data.github}(https://github.com/${data.github})]
+  * Email: ${data.email}
 `;
 };
 
