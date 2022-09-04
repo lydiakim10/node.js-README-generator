@@ -30,5 +30,5 @@
 
   ## Questions
   If you have any questions, please feel free to reach out to me at:
-  * Github: lydiakim10(https://github.com/lydiakim10)
+  * Github: https://github.com/lydiakim10
   * Email: lydiakim10@yahoo.com
