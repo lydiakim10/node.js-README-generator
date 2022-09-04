@@ -3,7 +3,7 @@
   
 
   ## Description
-  This project is made to test node.js.
+  This is the project description.
 
   ## Table of Contents
   [Installation](#installation)
@@ -14,22 +14,21 @@
   [Questions](#questions)
 
   ## Installation
-  N/
+  These are the steps used for installation.
 
   ## Usage
-  N/A
+  This is how the project is being used.
 
   ## License
-  ##Licenses
-    The license that is used for this project is: None.
+  undefined
 
   ## Contribution
-  N/A
+  This is how others can contribute to this project.
 
   ## Test
-  N/A
+  These are the tests used for this project.
 
   ## Questions
   If you have any questions, please feel free to reach out to me at:
-  Github: [lydiakim10(https://github.com/lydiakim10)]
-  Email: lydiakim10@yahoo.com
+  * Github: lydiakim10(https://github.com/lydiakim10)
+  * Email: lydiakim10@yahoo.com
