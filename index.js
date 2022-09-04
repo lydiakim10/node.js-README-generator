@@ -88,21 +88,15 @@ const questions = [
         name: 'license',
         message: 'Choose a license needed for your project',
         choices: [
-            "Apache 2.0 License",
-            "BSD 3-Clause License",
-            "BSD 2-Clause License",
-            "MIT License",
-            "GNU GPLv2",
-            "GBU GPLv3",
-            "LGPLv3",
-            "AGPLv3",
+            "Apache 2.0",
+            "MIT",
+            "GPL",
             "None",
-            "Other",
         ]
       },
       {
         type: 'input',
-        name: 'contributing',
+        name: 'contribution',
         message: 'How can other users contribute to this project?',
         validate: contribute => {
             if (contribute) {
@@ -126,18 +120,27 @@ const questions = [
             }
         }
       },
-      {
-        type: 'confirm',
-        name: 'questions',
-        message: 'Are there any questions?',
-      },
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
+        if (err) {
+            console.log(err)
+        } else {
+            console.log("Success! Your README.md has been created!")
+        }
+    })
+};
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer
+    .prompt(questions)
+    .then(function(data) {
+        writeToFile(fileName, data)
+    })
+};
 
 // Function call to initialize app
 init();
