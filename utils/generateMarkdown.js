@@ -33,11 +33,17 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (!license) {
-    return "";
-  } else {
-    return 
-    `The license that is used for this project is: ${license}.`
+  if (license === "Apache 2.0") {
+    return `The license being used for this project is: Apache 2.0`
+  }
+  if (license === "MIT") {
+    return `The license being used for this project is: MIT`
+  }
+  if (license === "GPL") {
+    return `The license being used for this project is: GPL`
+  }
+  if (license === "None") {
+    return `There is no license used for this project.`
   }
 };
 
@@ -75,8 +81,8 @@ function generateMarkdown(data) {
 
   ## Questions
   If you have any questions, please feel free to reach out to me at:
-  * [Github: ${data.github}(https://github.com/${data.github})]
-  * [Email: ${data.email}]
+  * Github: https://github.com/${data.github}
+  * Email: ${data.email}
 `;
 };
 
