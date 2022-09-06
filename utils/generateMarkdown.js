@@ -34,13 +34,13 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === "Apache 2.0") {
-    return `The license being used for this project is: Apache 2.0`
+    return `The license being used for this project is: Apache 2.0.`
   }
   if (license === "MIT") {
-    return `The license being used for this project is: MIT`
+    return `The license being used for this project is: MIT.`
   }
   if (license === "GPL") {
-    return `The license being used for this project is: GPL`
+    return `The license being used for this project is: GPL.`
   }
   if (license === "None") {
     return `There is no license used for this project.`

@@ -1,9 +1,9 @@
-# Node.js
-  ![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-orange)
-  https://www.apache.org/licenses/LICENSE-2.0
+# Testing node.js
+  
+  
 
   ## Description
-  description
+  This is my project description.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,21 +14,24 @@
   * [Questions](#questions)
 
   ## Installation
-  installation
+  These are the steps used for installation.
 
   ## Usage
-  usage
+  This is how the project is being used.
 
   ## License
-  undefined
+  There is no license used for this project.
 
   ## Contribution
-  contribution
+  This is how others can contribute to this project.
 
   ## Test
-  tests
+  These are the tests used for this project.
 
   ## Questions
   If you have any questions, please feel free to reach out to me at:
   * Github: https://github.com/lydiakim10
   * Email: lydiakim10@yahoo.com
+
+# Video Example
+[Video Link](./node.js%20README.webm)
