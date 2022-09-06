@@ -34,6 +34,6 @@
   * Email: lydiakim10@yahoo.com
 
 # Video Example
-![Video Link](node.js%20README.md%20Generator.gif)
+![Video Link](./videos/node.js%20README.md%20Generator.gif)
 
-[Video Link](./node.js%20README.webm)
+[Video Link](./videos/node.js%20README.webm)
