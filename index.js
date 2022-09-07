@@ -110,12 +110,12 @@ const questions = [
       {
         type: 'input',
         name: 'test',
-        message: 'What tests are used for your project?',
+        message: 'How do you test this project?',
         validate: testing => {
             if (testing) {
                 return true;
             } else {
-                console.log("Please enter what tests are used for your project!");
+                console.log("Please enter how to test this project!");
                 return false;
             }
         }
