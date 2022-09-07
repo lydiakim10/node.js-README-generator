@@ -35,4 +35,5 @@
 
 # Video Example
 ![Video Link](./videos/README.md%20generator.gif)
+
 [Video Link](./videos/README.webm)
