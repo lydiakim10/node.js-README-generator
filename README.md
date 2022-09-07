@@ -3,7 +3,7 @@
   
 
   ## Description
-  This is my project description.
+  This project is using node.js to quickly create a professional README.md
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,19 +14,19 @@
   * [Questions](#questions)
 
   ## Installation
-  These are the steps used for installation.
+  In order to install this project, please put "npm i" into your terminal.
 
   ## Usage
-  This is how the project is being used.
+  This is being used in order to quickly generate a professional README.md based on the user's input
 
   ## License
   There is no license used for this project.
 
   ## Contribution
-  This is how others can contribute to this project.
+  Users can contribute to this project by adding additonal questions that they want included in their README.md
 
   ## Test
-  These are the tests used for this project.
+  In order to test this project, please type "node index.js" into your terminal
 
   ## Questions
   If you have any questions, please feel free to reach out to me at:
@@ -34,6 +34,5 @@
   * Email: lydiakim10@yahoo.com
 
 # Video Example
-![Video Link](./videos/node.js%20README.md%20Generator.gif)
-
-[Video Link](./videos/node.js%20README.webm)
+![Video Link](./videos/README.md%20generator.gif)
+[Video Link](./videos/README.webm)
